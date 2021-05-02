@@ -1,0 +1,184 @@
+body{
+		font-family: verdana, sans-serif;
+	/*background-color: #f6f6f6;*/
+	background-color: rgba(199,21,133,0.2);
+	padding:0px;
+	margin:0px;
+
+
+}
+html
+{
+	scroll-behavior: smooth;
+}
+nav{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border-bottom: 5px solid #1E90FF;
+	position: relative;
+
+}
+nav h1{
+	color:#1E90FF;
+	margin-left:5%;
+}
+ nav .onglets{
+ 	margin-left:250px;	
+ }
+ nav .onglets a {
+ 	/*font-weight: bold;*/
+ 	text-decoration: none;
+ 	margin-right: 5px;
+ 	border-bottom: 3px solid #1E90FF;
+ 	padding-bottom: 5px;
+ } 
+
+ nav .onglets a:hover {
+ 	font-weight: bold;
+ 	color :#000;
+ 	text-decoration: none;
+ 	margin-right: 5px;
+ 	border-bottom: 3px solid #1E90FF;
+ 	padding-bottom: 5px;
+ } 
+ header {
+ 	
+ 	
+ 	height: 250px;
+ 	width:100%;
+  
+ }
+ #image{
+ 	height: 140px;
+ 	width: 140px;
+ 	position: relative;
+ 	top:50px;
+ 	left: 50px;
+ }
+ #gauche{
+ 	
+ 	float: left;
+ 	width: 30%;
+
+
+ }
+ #droite{
+ 	float: right;
+ 	width:60%;
+ 	margin-bottom: 30px;
+ 	
+ }
+
+ .portion1,.portion2,.portion3{
+ 	padding:10px;
+ 	margin:10px;
+ 	display: block;
+ 	border-top: 5px solid #1e90FF;
+
+ }
+.portion1{
+	border-top: none;
+}
+
+ h1{
+ 	text-align: center;
+ 	color: #1E90FF;
+
+ }
+.portion1:hover,.portion2:hover,.portion3:hover,#interet:hover,header:hover{
+	background-color: rgba(255,0,0,0.15);
+	box-shadow: 0 0 15px #f909f6;
+	border-top:7px; 
+}
+.cozleftf{
+	float: left;
+	width: 80%;
+	
+
+}
+.cozrightf{
+	float: left;
+	width: 20%;
+}
+
+
+.cozc
+{
+	display: inline-block;
+	width: 32%;
+}
+
+
+
+.coz::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cozlefte{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#interet {
+	border-top: 5px solid #1E90FF;
+	text-align: center;
+	padding-bottom: 30px;
+
+
+}
+
+#button{
+	background-color: blue;
+	color:#fff;
+}
+#button:hover{
+	background-color: #fff;
+	color:blue;
+}
+
+#facebook{
+	height: 25spx;
+	width: 25px;
+}
+#name{
+	font-size: 20px;
+	padding: right:40px;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	background-color:#1E90FF;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+
+@media screen and (max-width: 780px){
+nav{
+
+}
+
+nav .onglets { 
+	margin-left:0px;
+	margin-bottom:15px;
+	font-size:12px;
+	 }
+#droite{
+	display: flex;
+	flex-wrap: wrap;
+}
+#image{
+	height: 100px;
+ 	width: 100px;
+ 	position: relative;
+ 	top:50px;
+ 	left: 25px;
+}
+	
+
+
+}
